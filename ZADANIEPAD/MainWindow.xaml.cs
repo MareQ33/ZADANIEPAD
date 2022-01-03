@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Microsoft.Win32;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -24,5 +25,15 @@ namespace ZADANIEPAD
         {
             InitializeComponent();
         }
+
+        private void BtnClick1(object sender, RoutedEventArgs e)
+        {
+            OpenFileDialog openFileDialog = new OpenFileDialog();
+            if (openFileDialog.ShowDialog() == true)
+            {
+                Uri fileUri = new Uri(openFileDialog.FileName);    
+            }
+        }
     }
+
 }

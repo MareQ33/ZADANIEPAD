@@ -13,6 +13,7 @@
             <TabItem Name="prac" Header="PRACOWNICY">
             </TabItem>
             <TabItem Name="ladowanie" Header="ZAŁADUJ Z PLIKU">
+                <Button Name="btnLoadFromFile" Margin="0,56,673.4,297" Click="BtnClick1">ZAŁADUJ Z PLIKU</Button>
             </TabItem>
             <TabItem Name="zdj" Header="ZDJĘCIA">
             </TabItem>
