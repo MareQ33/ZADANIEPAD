@@ -24,6 +24,7 @@ namespace ZADANIEPAD
         public MainWindow()
         {
             InitializeComponent();
+            tabelka.IsReadOnly = true;
         }
 
         private void BtnClick1(object sender, RoutedEventArgs e)
@@ -33,6 +34,12 @@ namespace ZADANIEPAD
             {
                 Uri fileUri = new Uri(openFileDialog.FileName);    
             }
+        }
+
+        private void dodawanie_Click(object sender, RoutedEventArgs e)
+        {
+            bool dodawaniedotab = tabelka.IsReadOnly;
+            tabelka.IsReadOnly = !dodawaniedotab;
         }
     }
 
