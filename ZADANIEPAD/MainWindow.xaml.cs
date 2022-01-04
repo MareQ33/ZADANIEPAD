@@ -25,6 +25,7 @@ namespace ZADANIEPAD
         {
             InitializeComponent();
             tabelka.IsReadOnly = true;
+            List<Szkola> users = new List<Szkola>();
         }
 
         private void BtnClick1(object sender, RoutedEventArgs e)
@@ -32,7 +33,7 @@ namespace ZADANIEPAD
             OpenFileDialog openFileDialog = new OpenFileDialog();
             if (openFileDialog.ShowDialog() == true)
             {
-                Uri fileUri = new Uri(openFileDialog.FileName);    
+                Uri fileUri = new Uri(openFileDialog.FileName);
             }
         }
 
@@ -41,6 +42,18 @@ namespace ZADANIEPAD
             bool dodawaniedotab = tabelka.IsReadOnly;
             tabelka.IsReadOnly = !dodawaniedotab;
         }
-    }
 
+        public class Szkola
+        {
+            public string Miejsce { get; set; }
+
+            public string Miasto { get; set; }
+
+            public string Ulica { get; set; }
+
+            public string Nazwa { get; set; }
+
+            public string Patron { get; set; }
+        }
+    }
 }

@@ -9,8 +9,14 @@
     <Grid>
         <TabControl Name="Kontrola" Width="800">
             <TabItem Name="sql" Header="SZKOŁA" >
-                <DataGrid Width="702" HorizontalAlignment="Left" Name="tabelka" Margin="38,31,0,32.6">
-                    <Button Click="Dodaj">Dodaj</Button>
+                <DataGrid Width="742" HorizontalAlignment="Left" Name="tabelka" Margin="26,-1,0,7.6" >
+                    <DataGrid.Columns>
+                        <DataGridTextColumn Header="Miejsce"/>
+                        <DataGridTextColumn Header="Miasto"/>
+                        <DataGridTextColumn Header="Ulica"/>
+                        <DataGridTextColumn Header="Nazwa"/>
+                        <DataGridTextColumn Header="Patron"/>
+                    </DataGrid.Columns>
                 </DataGrid>
             </TabItem>
             <TabItem Name="prac" Header="PRACOWNICY" Height="23" Margin="-2.4,-2,-2.2,-0.2" VerticalAlignment="Top">
