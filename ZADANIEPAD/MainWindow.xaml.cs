@@ -24,10 +24,15 @@ namespace ZADANIEPAD
         public MainWindow()
         {
             InitializeComponent();
+
             tabelka.IsReadOnly = true;
             List<Szkola> users = new List<Szkola>();
-        }
 
+            users.Add(new Szkola() { Miejsce = "Gdynia", Miasto = "John Doe", Ulica = "xd", Nazwa = "sf", Patron = "s" });
+
+            tabelka.ItemsSource = users;
+        }
+    
         private void BtnClick1(object sender, RoutedEventArgs e)
         {
             OpenFileDialog openFileDialog = new OpenFileDialog();
@@ -54,6 +59,11 @@ namespace ZADANIEPAD
             public string Nazwa { get; set; }
 
             public string Patron { get; set; }
+        }
+
+        private void DODAWANIESZKOLA(object sender, RoutedEventArgs e)
+        {
+       
         }
     }
 }

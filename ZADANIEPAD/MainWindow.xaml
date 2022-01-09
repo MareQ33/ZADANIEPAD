@@ -11,13 +11,8 @@
             <TabItem Name="sql" Header="SZKOŁA" >
                 <DataGrid Width="742" HorizontalAlignment="Left" Name="tabelka" Margin="26,-1,0,7.6" >
                     <DataGrid.Columns>
-                        <DataGridTextColumn Header="Miejsce"/>
-                        <DataGridTextColumn Header="Miasto"/>
-                        <DataGridTextColumn Header="Ulica"/>
-                        <DataGridTextColumn Header="Nazwa"/>
-                        <DataGridTextColumn Header="Patron"/>
+
                     </DataGrid.Columns>
-                    <Button>Dodanie</Button>
                 </DataGrid>
             </TabItem>
             <TabItem Name="prac" Header="PRACOWNICY" Height="23" Margin="-2.4,-2,-2.2,-0.2" VerticalAlignment="Top">
@@ -28,7 +23,6 @@
             <TabItem Name="zdj" Header="ZDJĘCIA">
             </TabItem>
         </TabControl>
-        <Button Content="DODAJ SZKOLE" HorizontalAlignment="Left" Margin="315,78,0,0" VerticalAlignment="Top" Width="96" Height="23"/>
 
     </Grid>
 </Window>
