@@ -17,6 +17,7 @@
                         <DataGridTextColumn Header="Nazwa"/>
                         <DataGridTextColumn Header="Patron"/>
                     </DataGrid.Columns>
+                    <Button>Dodanie</Button>
                 </DataGrid>
             </TabItem>
             <TabItem Name="prac" Header="PRACOWNICY" Height="23" Margin="-2.4,-2,-2.2,-0.2" VerticalAlignment="Top">
@@ -27,6 +28,7 @@
             <TabItem Name="zdj" Header="ZDJĘCIA">
             </TabItem>
         </TabControl>
+        <Button Content="DODAJ SZKOLE" HorizontalAlignment="Left" Margin="315,78,0,0" VerticalAlignment="Top" Width="96" Height="23"/>
 
     </Grid>
 </Window>
