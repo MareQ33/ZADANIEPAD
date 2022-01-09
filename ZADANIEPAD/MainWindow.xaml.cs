@@ -27,6 +27,7 @@ namespace ZADANIEPAD
 
             tabelka.IsReadOnly = true;
             List<Szkola> users = new List<Szkola>();
+            List<Szkola> users1 = new List<Szkola>();
 
             users.Add(new Szkola() { Miejsce = "Polska", Miasto = "Gdynia", Ulica = "Sambora", Nazwa = "ZSCHiE", Patron = "-" });
             users.Add(new Szkola() { Miejsce = "Hiszpania", Miasto = "Madryt", Ulica = "Plasencia", Nazwa = "MadritSchool", Patron = "Iker Casillas" });
@@ -35,9 +36,14 @@ namespace ZADANIEPAD
             users.Add(new Szkola() { Miejsce = "Portugalia", Miasto = "Lizbona", Ulica = "Lisbon", Nazwa = "LisSQL", Patron = "Ronaldo" });
             users.Add(new Szkola() { Miejsce = "Austria", Miasto = "Wieden", Ulica = "Aust", Nazwa = "As", Patron = "PA" });
 
-            tabelka.ItemsSource = users;
+            users1.Add(new Szkola() { Uczen = "Kamil Zdun", Pracownik = "Ryszard J", Nauczyciel = "Jan Kowalski" });
+            users1.Add(new Szkola() { Uczen = "Jan Zet", Pracownik = "Kacper Tas", Nauczyciel = "Kacper Mis" });
+            users1.Add(new Szkola() { Uczen = "Marek Mar", Pracownik = "Kevin T", Nauczyciel = "Jan Nowak" });
 
-     
+            tabelka.ItemsSource = users;
+            tabelka1.ItemsSource = users1;
+
+
         }
     
         private void BtnClick1(object sender, RoutedEventArgs e)
