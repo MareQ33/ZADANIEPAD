@@ -1,0 +1,40 @@
+Moja aplikacja będzie na pozór prosta, chciałbym zrobić po prostu to co potrafię.
+
+Szata graficzna nie jest może najlepsza, ale już tłumaczę.
+
+Plan jest taki, żeby zrobić 4 zakładki: Szkoła, Pracownicy, Ładowanie z pliku i zdjęcie.
+
+Po wyborze "Szkoła" (mój autorski dodatek), będziemy mogli dodać szkołę, w której wprowadzimy
+(grafika) -> Miejsce, Miasto, Ulice, Nazwę i Patrona (o ile ma).
+
+Po wyborze "Pracownicy", będziemy mogli wybrać czy chcemy dodać: Ucznia, Pracownika czy Nauczyciela.
+
+Po wyborze "Załaduj z pliku pracowików szkoły, będziemy mogli po prostu załadować z pliku tekstowego.
+
+Po wyborze pola "zdjęcie" będziemy mogli, będziemy mogli po prostu wybrać i załadować zdjęcie.
+
+PLAN:
+1. Utworzenie pliku WPF
+2. Zrobienie graficznej wizualizacji
+3. Zrobienie założonego planu
+
+* Częste Commity
+
+REALIZACJA:
+1. Dodanie 4 zakładek (SZKOŁA, PRACOWNICY, ŁADOWANIE Z PLIKU, ZDJĘCIE)
+2. Dodanie Buttona "ZAŁADUJ Z PLIKU"
+3. Dodanie DataGridu i Buttona
+4. Dodanie do SZKOŁA planowanych zakładek
+5. Dodanie Buttona "DODAJ SZKOLE"
+6. Dodawanie w XAML i Usunięcie Buttona
+7. Dodanie rekordów do tabeli.
+8. Dodanie Stringow : Uczen, Pracownik, Nauczyciel
+9. Dodanie GridTextColumn w Pracownikach
+10. Dodanie uczniów, pracowników i nauczycieli
+
+
+PODSUMOWANIE:
+Niestety Plan nie został zrealizowany, dodawanie odbywa się poprzez Xamla.cs (w kodzie), a nie Buttona, chcę jednak
+wyrobić się w czasie i tak jak napisałem wyżej, chciałem zrobić po prostu to co potrafię bez pomocy kolegów
+(te same kody), starałem się też zbytnio nie korzystać z internetu, ale ze swojej pracy nie jestem zadowolony.
+
