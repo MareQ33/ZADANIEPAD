@@ -28,7 +28,12 @@ namespace ZADANIEPAD
             tabelka.IsReadOnly = true;
             List<Szkola> users = new List<Szkola>();
 
-            users.Add(new Szkola() { Miejsce = "Gdynia", Miasto = "John Doe", Ulica = "xd", Nazwa = "sf", Patron = "s" });
+            users.Add(new Szkola() { Miejsce = "Polska", Miasto = "Gdynia", Ulica = "Sambora", Nazwa = "ZSCHiE", Patron = "-" });
+            users.Add(new Szkola() { Miejsce = "Hiszpania", Miasto = "Madryt", Ulica = "Plasencia", Nazwa = "MadritSchool", Patron = "Iker Casillas" });
+            users.Add(new Szkola() { Miejsce = "Niemcy", Miasto = "Berlin", Ulica = "Marxheim", Nazwa = "Marxheim", Patron = "-" });
+            users.Add(new Szkola() { Miejsce = "Francja", Miasto = "Lens", Ulica = "Lens", Nazwa = "Lens", Patron = "Lens" });
+            users.Add(new Szkola() { Miejsce = "Portugalia", Miasto = "Lizbona", Ulica = "Lisbon", Nazwa = "LisSQL", Patron = "Ronaldo" });
+            users.Add(new Szkola() { Miejsce = "Austria", Miasto = "Wieden", Ulica = "Aust", Nazwa = "As", Patron = "PA" });
 
             tabelka.ItemsSource = users;
         }
