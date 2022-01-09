@@ -11,11 +11,16 @@
             <TabItem Name="sql" Header="SZKOŁA" >
                 <DataGrid Width="742" HorizontalAlignment="Left" Name="tabelka" Margin="26,-1,0,7.6" >
                     <DataGrid.Columns>
-
+                        
                     </DataGrid.Columns>
                 </DataGrid>
             </TabItem>
             <TabItem Name="prac" Header="PRACOWNICY" Height="23" Margin="-2.4,-2,-2.2,-0.2" VerticalAlignment="Top">
+                <DataGrid Width="742" HorizontalAlignment="Left" Name="tabelka1" Margin="26,-1,0,7.6" >
+                    <DataGrid.Columns>
+                        
+                    </DataGrid.Columns>
+                </DataGrid>
             </TabItem>
             <TabItem Name="ladowanie" Header="ZAŁADUJ Z PLIKU">
                 <Button Name="btnLoadFromFile" Margin="0,56,673.4,297" Click="BtnClick1">ZAŁADUJ Z PLIKU</Button>
@@ -23,6 +28,7 @@
             <TabItem Name="zdj" Header="ZDJĘCIA">
             </TabItem>
         </TabControl>
+        
 
     </Grid>
 </Window>

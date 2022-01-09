@@ -36,6 +36,14 @@ namespace ZADANIEPAD
             users.Add(new Szkola() { Miejsce = "Austria", Miasto = "Wieden", Ulica = "Aust", Nazwa = "As", Patron = "PA" });
 
             tabelka.ItemsSource = users;
+
+            tabelka1.IsReadOnly = true;
+            List<Szkola> users1 = new List<Szkola>();
+
+            users1.Add(new Szkola() { Uczen = "Polska", Pracownik = "Gdynia", Nauczyciel = "Sambora"});
+        
+
+            tabelka1.ItemsSource = users;
         }
     
         private void BtnClick1(object sender, RoutedEventArgs e)
@@ -64,6 +72,11 @@ namespace ZADANIEPAD
             public string Nazwa { get; set; }
 
             public string Patron { get; set; }
+
+            public string Uczen{ get; set; }
+
+            public string Pracownik { get; set; }
+            public string Nauczyciel { get; set; }
         }
 
         private void DODAWANIESZKOLA(object sender, RoutedEventArgs e)
