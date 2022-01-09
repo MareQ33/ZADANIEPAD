@@ -37,13 +37,7 @@ namespace ZADANIEPAD
 
             tabelka.ItemsSource = users;
 
-            tabelka1.IsReadOnly = true;
-            List<Szkola> users1 = new List<Szkola>();
-
-            users1.Add(new Szkola() { Uczen = "Polska", Pracownik = "Gdynia", Nauczyciel = "Sambora"});
-        
-
-            tabelka1.ItemsSource = users;
+     
         }
     
         private void BtnClick1(object sender, RoutedEventArgs e)

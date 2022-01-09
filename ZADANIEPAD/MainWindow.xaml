@@ -18,7 +18,9 @@
             <TabItem Name="prac" Header="PRACOWNICY" Height="23" Margin="-2.4,-2,-2.2,-0.2" VerticalAlignment="Top">
                 <DataGrid Width="742" HorizontalAlignment="Left" Name="tabelka1" Margin="26,-1,0,7.6" >
                     <DataGrid.Columns>
-                        
+                        <DataGridTextColumn Header="Uczen"></DataGridTextColumn>
+                        <DataGridTextColumn Header="Pracownik"/>
+                        <DataGridTextColumn Header="Nauczyciel"/>
                     </DataGrid.Columns>
                 </DataGrid>
             </TabItem>
